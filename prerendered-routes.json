@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/",
+    "/contact",
+    "/course",
+    "/insert",
+    "/login",
+    "/register",
+    "/show"
+  ]
+}
