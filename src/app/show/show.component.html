@@ -1,0 +1,36 @@
+<p>show works!</p>
+<h1>CRUD Operation in Angular</h1><hr>
+
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <a href="/insert" class="btn btn-success">Add Record</a><br><br>
+<table class="table table-bordered table-hover table-dark table-striped">
+  <tbody>
+    <tr>
+        <td>id</td>
+        <td>name</td>
+        <td>course</td>
+        <td>Address</td>
+        <td>email</td>
+        <td>phone</td>
+        <td>Action</td>
+      </tr>
+  <tr *ngFor="let item of mydata">
+<td>{{item.id}}</td>
+<td>{{item.name}}</td>
+<td>{{item.course}}</td>
+<td>{{item.address}}</td>
+<td>{{item.email}}</td>
+<td>{{item.phone}}</td>
+<td>
+  <a href="/delete/{{item.id}}" class="btn btn-danger">Delete</a>
+  &nbsp;&nbsp; 
+<a href="/edit/{{item.id}}/{{item.name}}/{{item.course}}/{{item.address}}/{{item.email}}/{{item.phone}}"
+class="btn btn-warning">Edit</a>
+
+</td>
+</tr></tbody>
+</table>
+</div>
+</div>

@@ -1,0 +1,25 @@
+<h2>Add Record page</h2>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+
+Enter Name
+<input type="text" #n class="form-control"><br>
+
+Enter Course
+<input type="text" #c class="form-control"><br>
+
+Enter Address
+<input type="text" #ad class="form-control"><br>
+
+Enter Email 
+<input type="text" #e class="form-control"><br>
+
+Enter Phone number 
+<input type="text" #ph class="form-control"><br>
+
+<input type="submit" value="Add Record" class="btn btn-primary" 
+(click)="getInsert(n.value,c.value,ad.value,e.value,ph.value)">
+
+</div>
+</div>

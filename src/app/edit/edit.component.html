@@ -1,0 +1,28 @@
+<h2>Add Record page</h2>
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+
+Enter id 
+<input type="text" #uid class="form-control" value="{{id}}"><br>
+
+Enter Name
+<input type="text" #n class="form-control" value="{{name}}"><br>
+
+Enter Course
+<input type="text" #c class="form-control" value="{{course}}"><br>
+
+Enter Address
+<input type="text" #ad class="form-control"value="{{address}}" ><br>
+
+Enter Email 
+<input type="text" #e class="form-control" value="{{email}}"><br>
+
+Enter Phone number 
+<input type="text" #ph class="form-control" value="{{phone}}"><br>
+
+<input type="submit" value="Edit" class="btn btn-success" 
+(click)="getEdit(uid.value,n.value,c.value,ad.value,e.value,ph.value)">
+
+</div>
+</div>

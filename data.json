@@ -1,0 +1,44 @@
+{
+  "student": [
+    {
+      "id": "101",
+      "name": "A",
+      "course": "BBA",
+      "address": "Dehradun",
+      "email": "abc@gmail.com",
+      "phone": 1234567890
+    },
+    {
+      "id": "105",
+      "name": "E",
+      "course": "BSC IT",
+      "address": "Pune",
+      "email": "e@gmail.com",
+      "phone": 1234567890
+    },
+    {
+      "id": "ec02",
+      "name": "tanu",
+      "course": "bca",
+      "address": "bkk",
+      "email": "tanu@gmail.com",
+      "phone": "1234567890"
+    },
+    {
+      "id": "100",
+      "name": "abcd",
+      "course": "bca",
+      "address": "bkk",
+      "email": "asdfghj",
+      "phone": "12345678"
+    },
+    {
+      "id": "d16c",
+      "name": "karan",
+      "course": "BCA",
+      "address": "Raipur",
+      "email": "karan@gmail.com",
+      "phone": "1234567890"
+    }
+  ]
+}
